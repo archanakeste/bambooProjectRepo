@@ -35,4 +35,13 @@ public class AppTest
     {
         assertTrue( true );
     }
+    
+    
+    String message = "Robert";	
+       
+      @org.junit.Test
+       public void testPrintMessage() {	
+          System.out.println("Inside testPrintMessage()");    
+          assertEquals(message, "Robert");     
+       }
 }
