@@ -37,7 +37,7 @@ public class AppTest
     }
     
     
-    String message = "Robert12423";	
+    String message = "Robert1";	
        
       @org.junit.Test
        public void testPrintMessage() {	
