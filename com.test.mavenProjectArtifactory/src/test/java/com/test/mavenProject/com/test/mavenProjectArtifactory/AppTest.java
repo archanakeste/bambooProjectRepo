@@ -37,11 +37,11 @@ public class AppTest
     }
     
     
-    String message = "Robert";	
+    String message = "Robert1";	
        
       @org.junit.Test
        public void testPrintMessage() {	
           System.out.println("Inside testPrintMessage()");    
-          assertEquals(message, "Robert");     
+          assertEquals(message, "Robert1");     
        }
 }
